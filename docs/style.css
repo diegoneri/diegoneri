@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    background: url(img/pexels-josh-sorenson-373598.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card{
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header{
+    background-color: #2621709a;
+    padding: 60px 40px;
+}
+
+.pic{
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg, #74b9ff, #3a14e6);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+}
+
+@keyframes animated-gradient{
+    25%{
+        background-position: left bottom;
+    }
+    50%{
+        background-position: right bottom;
+    }
+    75%{
+        background-position: right top;
+    }
+    100%{
+        background-position: left top;
+    }
+}
+
+.pic img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name{
+    color: #f2f2f2;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.desc{
+    font-size: 1.2rem;
+    color: #a09d9d; 
+    font-weight: bolder;
+}
+
+.sm{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.sm a{
+    color: #f2f2f2;
+    width: 56px;
+    font-size: 1.6rem;
+    transition: .3s linear;
+}
+
+.sm a:hover{
+    color: #3a14e6;
+}
+
+.contact-btn{
+    display: inline-block;
+    padding: 12px 50px;
+    color: #170858;
+    border: 2px solid #170858;
+    border-radius: 6px;
+    margin-top: 16px;
+    transition: .3s linear;
+    font-weight: 700;
+}
+
+.contact-btn:hover{
+    background-color: #170858;
+    color: #f2f2f2;
+}
+
+.card-footer{
+    background: #f4f4f4;
+    padding: 60px 10px;
+}
+
+.numbers{
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    flex: 1;
+    text-transform: uppercase;
+    font-size:0.9rem;
+    color: #170858;
+}
+
+.item span{
+    display: block;
+    color: #2c3a47;
+    font-size: 2rem;
+}
+
+.border{
+    width: 1px;
+    height: 30px;
+    background: #bbb;
+}
