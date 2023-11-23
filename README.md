@@ -1,7 +1,7 @@
 ### Diego Neri de Souza Felix  👋
 
 - 🔭 _Senior Developer_
-- 🌱 _Teacher_ 
+- 🌱 _High School and College Teacher_ 
 - 👯 _Educational Curriculum Specialist_ 
 - 🤔 API & Microservices passionist
 - 💬 Oracle products, _on-premises_ and _on-cloud_, integration, APIs and SOA, as well as for object oriented programming 
